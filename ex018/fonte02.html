@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte Externa</title>
+    <style>
+        /*tipos de format ()
+        - opentype (otf)
+        - truetype (ttf)
+        - ambedded-opentype
+        - truetype-aat (Apple Advanced TyPegraphy)
+        - svg
+        */
+        @font-face {
+            font-family: bem;
+            src: url('Bemdayni Demo.otf'); format: ('opentype');
+        }
+        h1
+        {
+            font: normal 3em 'bem', serif;
+            color: rgba(215, 110, 215, 0.814)
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Testantando Fontes Externas</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde id reiciendis quam debitis. Voluptatibus numquam, temporibus accusamus voluptatum expedita nesciunt molestiae at rerum, id nulla dicta. Obcaecati mollitia voluptate minima.</p>
+</body>
+</html>
