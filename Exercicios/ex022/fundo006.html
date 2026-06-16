@@ -7,14 +7,25 @@
     <style>
         body {
             height: 100vh;
+            /* 
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-repeat: no-repeat;
             background-position: center center;
+
             background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed; */
+
+            /* Shorthand - Background
+            color > image > position > repeat > size > attachment
+            black > url('') > left, top, rigth, bottom center > no-repeat > cover > fixed
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center / cover no-repeat fixed;
+            
         }
         main {
-            width: 400px;
+            max-width: 400px;
             margin: auto;
             padding: 15px;
             border: 1px solid black;
@@ -26,7 +37,11 @@
 <body>
     <main>
         <h1> Teste </h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error praesentium nam debitis ex, in dolores ut pariatur voluptatum quibusdam quidem quasi esse inventore, repudiandae sint ab temporibus iure minus unde! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum ratione optio ipsam nisi ab dolorem, accusantium dolores explicabo fuga? A veniam accusantium neque quidem possimus quos aperiam explicabo error fugit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, magni illo! Praesentium pariatur obcaecati tempora, ipsum saepe odio voluptate molestias magni, libero, adipisci dolorum consectetur eum deserunt nostrum labore beatae?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error praesentium nam debitis ex, in dolores ut pariatur voluptatum quibusdam quidem quasi esse inventore, repudiandae sint ab temporibus iure minus unde! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum ratione optio ipsam nisi ab dolorem, accusantium dolores explicabo fuga? A veniam accusantium neque quidem possimus quos aperiam explicabo error fugit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, magni illo! Praesentium pariatur obcaecati tempora, ipsum saepe odio voluptate molestias magni, libero, adipisci dolorum consectetur eum deserunt nostrum labore beatae?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error praesentium nam debitis ex, in dolores ut pariatur voluptatum quibusdam quidem quasi esse inventore, repudiandae sint ab temporibus iure minus unde! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum ratione optio ipsam nisi ab dolorem, accusantium dolores explicabo fuga? A veniam accusantium neque quidem possimus quos aperiam explicabo error fugit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, magni illo! Praesentium pariatur obcaecati tempora, ipsum saepe odio voluptate molestias magni, libero, adipisci dolorum consectetur eum deserunt nostrum labore beatae?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error praesentium nam debitis ex, in dolores ut pariatur voluptatum quibusdam quidem quasi esse inventore, repudiandae sint ab temporibus iure minus unde! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum ratione optio ipsam nisi ab dolorem, accusantium dolores explicabo fuga? A veniam accusantium neque quidem possimus quos aperiam explicabo error fugit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, magni illo! Praesentium pariatur obcaecati tempora, ipsum saepe odio voluptate molestias magni, libero, adipisci dolorum consectetur eum deserunt nostrum labore beatae?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error praesentium nam debitis ex, in dolores ut pariatur voluptatum quibusdam quidem quasi esse inventore, repudiandae sint ab temporibus iure minus unde! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum ratione optio ipsam nisi ab dolorem, accusantium dolores explicabo fuga? A veniam accusantium neque quidem possimus quos aperiam explicabo error fugit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, magni illo! Praesentium pariatur obcaecati tempora, ipsum saepe odio voluptate molestias magni, libero, adipisci dolorum consectetur eum deserunt nostrum labore beatae?
+        </p>
     </main>
 </body>
 </html>
