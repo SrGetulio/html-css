@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe {
+        
+            border: 2px solid black;
+            width: 95vw;
+            height: 400px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Testando Iframe</h1>
+    <ul>
+        <li><a href="paginas-extras/pag1.html" target="frame">Primeiro Link</a></li>
+        <li><a href="paginas-extras/pag2.html" target="frame">Segundo Link</a></li>
+        <li><a href="paginas-extras/pag3.html" target="frame">Terceiro Link</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione amet at autem nobis tempore nulla, earum aut quidem provident temporibus, repellendus explicabo hic voluptatibus ipsa eius facilis numquam consequuntur! Quis?</p>
+
+    <iframe srcdoc="
+    <h1> Olá </h1>
+    <p>Escolha uma das opções acima!</p>
+    <img src= 'imagens/cores.png'> " 
+    frameborder="0" name="frame">
+        <p>Seu navegado não é compátivel com este conteúdo</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, excepturi! Sint nostrum laudantium alias eveniet libero perferendis commodi, inventore fugit repellendus corrupti, atque temporibus odio repudiandae maiores beatae dicta facilis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, ducimus fuga? Totam molestiae minus aperiam cumque! Nemo sit ut itaque minus nihil aut odit nobis blanditiis. Quo optio fuga laboriosam.</p>
+</body>
+</html>
